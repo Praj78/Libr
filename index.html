@@ -5,24 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!--css style 1st type 
+        <style>
+        body{
+            color:red;
+        }
+    </style> -->
+    <!-- third way of doing CSS:external link -->
+    <link href = "styles.css" rel ="stylesheet"/>
 </head>
 <body>
-    <h1>Welcome to prajwal's Component library</h1>
-    <p>I am attending neog's camp and I want to make library which would make all my projects look good and consistent.</p>
+    <h1 >Welcome to prajwal's Component library</h1>
+    <!-- in h1, style="color:red" 2nd type -->
+    <p >I am attending neog's camp and I want to make library which would make all my projects look good and consistent.</p>
+    <p>this paragraph will have a <strong>bold</strong>text</p>
     <small>this is relatively smaller text</small>
     <hr>
     <h2>@typography</h2>
     <h1>this is the biggest headline</h1>
     <h2>this is second biggest</h2>
-<p>this is the normal text</p>
+<p  >this is the normal text</p>
 <small>this is relatively small</small>
 <hr>
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div>this is fluid container and it will go till end of the page</div>
+    <div class="container " >this is fluid container and it will go till end of the page</div>
     
     <h3>center container</h3>
-    <div>this is centeered container and it will go till specified width</div>
+    <div class="container container-center">this is centeered container and it will go till specified width</div>
     <hr>
     <h2>@links</h2>
     <a href="https://google.com">Primary link</a>
@@ -49,7 +59,7 @@
     </ol>
     <hr>
     <h2>@nav</h2>
-    <div>ia am brand</div>
+    <div >ia am brand</div>
     <ul>
         <li>
             <a href="/">home</a>
@@ -71,22 +81,22 @@
     <h2>@section</h2>
     <section>
         <h3>white section</h3>
-        <p>this will have white background</p>
+        <p >this will have white background</p>
         </section>
         <section>
         <h3>off-white section</h3>
-        <p>this will have gray background</p>
+        <p >this will have gray background</p>
     </section>
     <hr>
     <h2>@footer</h2>
     <footer>
-        <div>some small heading inside footer</div>
+        <div >some small heading inside footer</div>
         <ul>
             <li>social one</li>
             <li>social two</li>
         </ul>
     </footer>
-<div style="height:30vh"></div>
+<div  style="height:30vh"></div>
 
 </body>
 </html>
